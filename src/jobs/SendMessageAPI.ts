@@ -1,3 +1,5 @@
+import { logger } from "../utils/logger";
+
 export default {
     key: "SendMessageAPI",
 	options: {
@@ -10,5 +12,11 @@ export default {
 			delay: 60000 * 3, // 3 min
 		},
 	},
-    async handle({ data }: any) { }
+    async handle({ data }: any) {		try {
+		logger.info("SendMessageAPI Initiated");
+			console.log("Job executando")
+		logger.info("Finalized SendMessageAPI");
+	} catch (error) {
+		logger.error({ message: "Error send messages", error });
+	} }
 }

@@ -11,10 +11,11 @@ import { logger } from "../utils/logger";
 export default async function bullMQ(app: Application) {
 	logger.info("bullMQ started");
 
+	await addJob("SendMessageSchenduled", { text: 'Hello, World!' });
+	await addJob("VerifyTicketsChatBotInactives", {});
 
-	addJob("SendMessageSchenduled", {});
-	addJob("VerifyTicketsChatBotInactives", {});
-	processQueues(10);
+	processQueues();
+
 	// Inicialize o painel do Bull
 	const serverAdapter = new ExpressAdapter();
 	serverAdapter.setBasePath("/admin/queues");

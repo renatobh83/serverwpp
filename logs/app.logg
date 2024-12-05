@@ -1439,3 +1439,1193 @@
   ],
   timestamp: '2024-12-05T13:55:23.291Z'
 }
+{
+  error: C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\libs\Queue.ts:118
+          await worker.run();
+          ^^^^^
+  
+  SyntaxError: await is only valid in async functions and the top level bodies of modules
+      at wrapSafe (node:internal/modules/cjs/loader:1469:18)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1491:20)
+      at Module._compile (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\node_modules\source-map-support\source-map-support.js:568:25)
+      at Module.m._compile (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-38908472646549996.js:69:33)
+      at node:internal/modules/cjs/loader:1689:10
+      at require.extensions..jsx.require.extensions..js (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-38908472646549996.js:114:20)
+      at require.extensions.<computed> (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-38908472646549996.js:71:20)
+      at Object.nodeDevHook [as .ts] (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\node_modules\ts-node-dev\lib\hook.js:63:13)
+      at Module.load (node:internal/modules/cjs/loader:1318:32)
+      at Function._load (node:internal/modules/cjs/loader:1128:12),
+  level: 'error',
+  message: 'uncaughtException: await is only valid in async functions and the top level bodies of modules\n' +
+    'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts:118\n' +
+    '        await worker.run();\n' +
+    '        ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1469:18)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1491:20)\n' +
+    '    at Module._compile (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1689:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js:114:20)\n' +
+    '    at require.extensions.<computed> (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)',
+  stack: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts:118\n' +
+    '        await worker.run();\n' +
+    '        ^^^^^\n' +
+    '\n' +
+    'SyntaxError: await is only valid in async functions and the top level bodies of modules\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1469:18)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1491:20)\n' +
+    '    at Module._compile (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1689:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js:114:20)\n' +
+    '    at require.extensions.<computed> (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1318:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1128:12)',
+  exception: true,
+  date: 'Thu Dec 05 2024 12:32:35 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 10436,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 72286208,
+      heapTotal: 34611200,
+      heapUsed: 16214584,
+      external: 2431816,
+      arrayBuffers: 123046
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 709934.125 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1469,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1491,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1689,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js',
+      function: 'require.extensions..jsx.require.extensions..js',
+      line: 114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-38908472646549996.js',
+      function: 'require.extensions.<computed>',
+      line: 71,
+      method: '<computed>',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ts-node-dev\\lib\\hook.js',
+      function: 'Object.nodeDevHook [as .ts]',
+      line: 63,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1318,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1128,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T15:32:35.949Z'
+}
+{
+  error: ReferenceError: jon is not defined
+      at C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\libs\Queue.ts:27:14
+      at Array.map (<anonymous>)
+      at Object.<anonymous> (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\libs\Queue.ts:25:43)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)
+      at Module._compile (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\node_modules\source-map-support\source-map-support.js:568:25)
+      at Module.m._compile (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-22181715424701776.js:69:33)
+      at node:internal/modules/cjs/loader:1689:10
+      at require.extensions..jsx.require.extensions..js (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-22181715424701776.js:114:20)
+      at require.extensions.<computed> (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-22181715424701776.js:71:20)
+      at Object.nodeDevHook [as .ts] (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\node_modules\ts-node-dev\lib\hook.js:63:13),
+  level: 'error',
+  message: 'uncaughtException: jon is not defined\n' +
+    'ReferenceError: jon is not defined\n' +
+    '    at C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts:27:14\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts:25:43)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1689:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js:114:20)\n' +
+    '    at require.extensions.<computed> (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)',
+  stack: 'ReferenceError: jon is not defined\n' +
+    '    at C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts:27:14\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Object.<anonymous> (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts:25:43)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1689:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js:114:20)\n' +
+    '    at require.extensions.<computed> (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)',
+  exception: true,
+  date: 'Thu Dec 05 2024 15:49:38 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 14456,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 75698176,
+      heapTotal: 35397632,
+      heapUsed: 16830632,
+      external: 2442718,
+      arrayBuffers: 133578
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 721757.078 },
+  trace: [
+    {
+      column: 14,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts',
+      function: null,
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Array.map',
+      line: null,
+      method: 'map',
+      native: false
+    },
+    {
+      column: 43,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\libs\\Queue.ts',
+      function: null,
+      line: 25,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1546,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1689,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js',
+      function: 'require.extensions..jsx.require.extensions..js',
+      line: 114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-22181715424701776.js',
+      function: 'require.extensions.<computed>',
+      line: 71,
+      method: '<computed>',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ts-node-dev\\lib\\hook.js',
+      function: 'Object.nodeDevHook [as .ts]',
+      line: 63,
+      method: 'ts]',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T18:49:38.984Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:02:48.760Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:48.762Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:48.763Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:48.763Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:02:52.079Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:52.080Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:52.081Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:52.081Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:02:55.489Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:55.490Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:55.491Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:55.491Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:02:59.002Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:59.003Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:59.004Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:02:59.004Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:03:02.525Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:02.526Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:02.527Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:02.528Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:03:06.366Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:06.367Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:06.367Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:06.368Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:03:09.936Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:09.937Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:09.938Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:09.938Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:03:13.688Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:13.689Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:13.689Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:13.690Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:03:17.355Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:17.356Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:17.357Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:03:17.357Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:26.305Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:26.306Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:26.306Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:26.306Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:33.239Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:33.240Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:33.240Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:33.241Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:36.841Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:36.844Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:36.845Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:36.845Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:41.482Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:41.483Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:41.484Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:41.484Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:44.928Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:44.930Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:44.930Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:44.931Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:48.752Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:48.753Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:48.753Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:48.754Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:52.309Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:52.311Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:52.312Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:52.312Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:56.018Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:56.019Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:56.020Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:56.020Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:09:59.777Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:59.778Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:59.778Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:09:59.778Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:03.507Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:03.508Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:03.508Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:03.509Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:07.403Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:07.404Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:07.404Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:07.405Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:11.202Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:11.203Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:11.203Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:11.203Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:15.123Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:15.124Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:15.125Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:15.125Z'
+}
+{
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  level: 'error',
+  message: 'connect ETIMEDOUT',
+  stack: 'Error: connect ETIMEDOUT\n' +
+    '    at Socket.<anonymous> (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\ioredis\\built\\Redis.js:170:41)\n' +
+    '    at Object.onceWrapper (node:events:632:28)\n' +
+    '    at Socket.emit (node:events:518:28)\n' +
+    '    at Socket._onTimeout (node:net:595:8)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  timestamp: '2024-12-05T19:10:25.849Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:25.850Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:25.850Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ETIMEDOUT',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:25.850Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:29.875Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:29.876Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:29.877Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:29.877Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:33.964Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:33.965Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:33.966Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:33.966Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:38.067Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:38.068Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:38.068Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:38.068Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:42.243Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:42.244Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:42.245Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:42.245Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:46.459Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:46.461Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:46.461Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:46.462Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:50.741Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:50.742Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:50.742Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:50.743Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:54.980Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:54.982Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:54.982Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:54.983Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:10:59.229Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:59.231Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:59.231Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:10:59.232Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:11:03.853Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:11:03.854Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:11:03.855Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:11:03.855Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '109.199.105.36',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 109.199.105.36:6379',
+  stack: 'Error: connect ECONNREFUSED 109.199.105.36:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T19:11:08.349Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:11:08.351Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:11:08.352Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 109.199.105.36:6379',
+  level: 'error',
+  timestamp: '2024-12-05T19:11:08.353Z'
+}

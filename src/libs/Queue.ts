@@ -1,25 +1,31 @@
-import { type Job, Queue, Worker } from "bullmq";
+import { type Job, Queue, Worker  } from "bullmq";
 import * as jobs from "../jobs/index";
 import { logger } from "../utils/logger";
 import { Redis } from "ioredis"
 // Redis connection options
-const redisConfig = new Redis( {
+const redis = new Redis( {
 	host: process.env.IO_REDIS_SERVER,
 	port: +(process.env.IO_REDIS_PORT || "6379"),
 	password: process.env.IO_REDIS_PASSWORD || undefined,
 	db: 3,
 	maxRetriesPerRequest: null,
+	retryStrategy: (times: number) => Math.min(times * 50, 2000),
+	enableOfflineQueue: false
 });
 
 
-redisConfig.on("connect", ()=>{
+redis.on("connect", ()=>{
 logger.info("Redis onConnect")})
 
-redisConfig.on("error", (err) => {
+redis.on("close", (channel: string, message: string) => {
+	console.log(channel, message)
+})
+redis.on("error", (err) => {
 logger.error(err) })
+
 // Cria as filas
 export const queues = Object.values(jobs).map((job: any) => {
-	const bullQueue = new Queue(job.key, { connection: redisConfig });
+	const bullQueue = new Queue(job.key, { connection: redis});
 
 	// Adiciona os listeners
 	// bullQueue.on("waiting", QueueListener.onWaiting);
@@ -38,6 +44,7 @@ export const queues = Object.values(jobs).map((job: any) => {
 	};
 });
 
+
 // Função para adicionar jobs a uma fila específica
 export async function addJob(
 	queueName: string,
@@ -49,7 +56,7 @@ export async function addJob(
 	if (!queue) {
 		throw new Error(`Queue "${queueName}" not found.`);
 	}
-
+	console.log(queue.bull)
 	try {
 		await queue.bull.add(queueName, data, {
 			...queue.options, // Opções padrão da fila
@@ -67,15 +74,15 @@ export async function addJob(
 }
 const workers: Worker[] = [];
 // Função para configurar o processamento
-export function processQueues(concurrency = 60) {
-	queues.forEach(({ name, handle }) => {
-		logger.info(`Registrando worker para a fila ${name}`); // Ad
+export function processQueues(concurrency = 2) {
+
+	queues.forEach(async({ name, handle }) => {
+		logger.info(`Registrando worker para a fila ${name}`);
 		const worker = new Worker(
 			name,
 			async (job: Job) => {
 				try {
 					logger.info(`Processando job ${name}`);
-					console.log(job.data)
 					await handle(job.data); // Passa os dados do job para o handle
 					logger.info(`Job ${name} processado com sucesso.`);
 				} catch (error) {
@@ -83,16 +90,21 @@ export function processQueues(concurrency = 60) {
 				}
 			},
 			{
-				connection: redisConfig,
+				connection: redis,
 				concurrency,
 			},
 		);
+
+		worker.on("active",(job, prev)=> {
+			console.log(job, prev)
+		})
 		worker.on("stalled", (job) => {
 			logger.warn(`Job em espera detectado: ${job}`);
 		});
 
 		worker.on("completed", (job) => {
 			logger.info(`Job ${job.id} na fila ${name} concluído com sucesso.`);
+			console.log(`Job ${job.id} na fila ${name} concluído com sucesso.`);
 		});
 
 		worker.on("failed", (job, error) => {
@@ -100,10 +112,15 @@ export function processQueues(concurrency = 60) {
 				`Job ${job?.id || "unknown"} na fila ${name} falhou: ${error.message}`,
 			);
 		});
+
 		workers.push(worker);
+
+
+
 	});
 	logger.info("Workers configurados e prontos para processar jobs.");
 }
+
 
 export async function closeWorkers() {
 	for (const worker of workers) {
