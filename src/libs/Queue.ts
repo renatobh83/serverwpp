@@ -11,6 +11,12 @@ const redisConfig = new Redis( {
 	maxRetriesPerRequest: null,
 });
 
+
+redisConfig.on("connect", ()=>{ 
+logger.info(" redis connect")})
+
+redisConfig.on("error", (err) => {
+logger.error(err) })
 // Cria as filas
 export const queues = Object.values(jobs).map((job: any) => {
 	const bullQueue = new Queue(job.key, { connection: redisConfig });
