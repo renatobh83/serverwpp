@@ -10,17 +10,17 @@ import { logger } from "../utils/logger";
 
 export default async function bullMQ(app: Application) {
 	logger.info("bullMQ started");
-	
+
 
 	addJob("SendMessageSchenduled", {});
+	addJob("VerifyTicketsChatBotInactives", {});
 	processQueues(10);
-	// addJob("VerifyTicketsChatBotInactives", {});
 	// Inicialize o painel do Bull
 	const serverAdapter = new ExpressAdapter();
 	serverAdapter.setBasePath("/admin/queues");
 
 	createBullBoard({
-		queues: queues.map((q) => new BullMQAdapter(q.bull)), 
+		queues: queues.map((q) => new BullMQAdapter(q.bull)),
 		serverAdapter: serverAdapter,
 	});
 

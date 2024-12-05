@@ -1,12 +1,13 @@
 import express, { Application, type Express } from "express";
-import { type Server, createServer } from "node:http";
 import { logger } from "../utils/logger";
 import bootstrap from "./boot";
 import { closeQueues, closeWorkers } from "../libs/Queue";
+import { type Server, createServer } from "node:http";
+import { initIO } from "../libs/scoket";
 
 
 
-export default async function application(): Promise<Application> { 
+export default async function application(): Promise<Application> {
     const app: Express | any = express();
 	const httpServer: Server = createServer(app);
 	const port = 3100;
@@ -16,11 +17,11 @@ export default async function application(): Promise<Application> {
 		const host = app.get("host") || "0.0.0.0";
 		app.server = httpServer.listen(port, host, async () => {
 			logger.info(`Web server listening at: http://${host}:${port}/`);
-            
-		
+
+
 		});
 		app.use(express.json());
-		// initIO(app.server);
+		initIO(app.server);
 
 	}
 

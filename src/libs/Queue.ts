@@ -12,8 +12,8 @@ const redisConfig = new Redis( {
 });
 
 
-redisConfig.on("connect", ()=>{ 
-logger.info(" redis connect")})
+redisConfig.on("connect", ()=>{
+logger.info("Redis onConnect")})
 
 redisConfig.on("error", (err) => {
 logger.error(err) })
@@ -68,7 +68,6 @@ export async function addJob(
 const workers: Worker[] = [];
 // Função para configurar o processamento
 export function processQueues(concurrency = 60) {
-	// biome-ignore lint/complexity/noForEach: <explanation>
 	queues.forEach(({ name, handle }) => {
 		logger.info(`Registrando worker para a fila ${name}`); // Ad
 		const worker = new Worker(
@@ -89,7 +88,7 @@ export function processQueues(concurrency = 60) {
 			},
 		);
 		worker.on("stalled", (job) => {
-			logger.warn(`Job em espera detectado: ${job.id}`);
+			logger.warn(`Job em espera detectado: ${job}`);
 		});
 
 		worker.on("completed", (job) => {

@@ -740,3 +740,702 @@
     '    at processTicksAndRejections (node:internal/process/task_queues:89:21)',
   timestamp: '2024-12-05T00:02:44.542Z'
 }
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:40.629Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:40.634Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:40.691Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:40.692Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:40.803Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:40.806Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:40.973Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:40.974Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:41.191Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:41.193Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:41.460Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:41.461Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:17:41.771Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:17:41.772Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:18:08.405Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:18:08.409Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:18:08.466Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:18:08.468Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:18:08.575Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:18:08.576Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:18:08.731Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:18:08.733Z'
+}
+{
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379,
+  level: 'error',
+  message: 'connect ECONNREFUSED 127.0.0.1:6379',
+  stack: 'Error: connect ECONNREFUSED 127.0.0.1:6379\n' +
+    '    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)',
+  timestamp: '2024-12-05T13:18:08.950Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-05T13:18:08.951Z'
+}
+{
+  error: ReferenceError: modules is not defined
+      at bootstrap (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\app\boot.ts:13:2)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at application (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\app\index.ts:14:2),
+  level: 'error',
+  message: 'uncaughtException: modules is not defined\n' +
+    'ReferenceError: modules is not defined\n' +
+    '    at bootstrap (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts:13:2)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at application (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts:14:2)',
+  stack: 'ReferenceError: modules is not defined\n' +
+    '    at bootstrap (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts:13:2)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at application (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts:14:2)',
+  exception: true,
+  date: 'Thu Dec 05 2024 10:40:34 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 19040,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 83759104,
+      heapTotal: 58650624,
+      heapUsed: 32317432,
+      external: 2539158,
+      arrayBuffers: 98656
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 703212.312 },
+  trace: [
+    {
+      column: 2,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts',
+      function: 'bootstrap',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 105,
+      method: null,
+      native: false
+    },
+    {
+      column: 2,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts',
+      function: 'application',
+      line: 14,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T13:40:34.078Z'
+}
+{
+  error: Error: Error
+      at Timeout._onTimeout (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\routes\index.ts:10:15)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7),
+  level: 'error',
+  message: 'uncaughtException: Error\n' +
+    'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  stack: 'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  exception: true,
+  date: 'Thu Dec 05 2024 10:41:37 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 15340,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 70111232,
+      heapTotal: 28504064,
+      heapUsed: 24096104,
+      external: 2517709,
+      arrayBuffers: 58413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 703275.656 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts',
+      function: 'Timeout._onTimeout',
+      line: 10,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 594,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'processTimers',
+      line: 529,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T13:41:37.431Z'
+}
+{
+  error: Error: Error
+      at Timeout._onTimeout (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\routes\index.ts:10:15)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7),
+  level: 'error',
+  message: 'uncaughtException: Error\n' +
+    'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  stack: 'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  exception: true,
+  date: 'Thu Dec 05 2024 10:42:13 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 8764,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 69988352,
+      heapTotal: 27717632,
+      heapUsed: 24628816,
+      external: 2517709,
+      arrayBuffers: 58413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 703311.671 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts',
+      function: 'Timeout._onTimeout',
+      line: 10,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 594,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'processTimers',
+      line: 529,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T13:42:13.445Z'
+}
+{
+  error: Error: Error
+      at Timeout._onTimeout (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\routes\index.ts:10:15)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7),
+  level: 'error',
+  message: 'uncaughtException: Error\n' +
+    'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  stack: 'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  exception: true,
+  date: 'Thu Dec 05 2024 10:42:49 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 13352,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 111861760,
+      heapTotal: 70029312,
+      heapUsed: 41760336,
+      external: 2554296,
+      arrayBuffers: 94616
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 703347.953 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts',
+      function: 'Timeout._onTimeout',
+      line: 10,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 594,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'processTimers',
+      line: 529,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T13:42:49.726Z'
+}
+{
+  error: Error: Error
+      at Timeout._onTimeout (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\routes\index.ts:10:15)
+      at listOnTimeout (node:internal/timers:594:17)
+      at processTimers (node:internal/timers:529:7),
+  level: 'error',
+  message: 'uncaughtException: Error\n' +
+    'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  stack: 'Error: Error\n' +
+    '    at Timeout._onTimeout (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts:10:15)\n' +
+    '    at listOnTimeout (node:internal/timers:594:17)\n' +
+    '    at processTimers (node:internal/timers:529:7)',
+  exception: true,
+  date: 'Thu Dec 05 2024 10:43:15 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 11284,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 70352896,
+      heapTotal: 28504064,
+      heapUsed: 24272280,
+      external: 2517709,
+      arrayBuffers: 58413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 703373.453 },
+  trace: [
+    {
+      column: 15,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\routes\\index.ts',
+      function: 'Timeout._onTimeout',
+      line: 10,
+      method: '_onTimeout',
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/timers',
+      function: 'listOnTimeout',
+      line: 594,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: 'node:internal/timers',
+      function: 'processTimers',
+      line: 529,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T13:43:15.234Z'
+}
+{
+  error: Error: Cannot find module '../database'
+  Require stack:
+  - C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\app\database.ts
+  - C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\app\boot.ts
+  - C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\app\index.ts
+  - C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\server.ts
+      at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)
+      at Function._load (node:internal/modules/cjs/loader:1075:27)
+      at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+      at Module.require (node:internal/modules/cjs/loader:1340:12)
+      at require (node:internal/modules/helpers:141:16)
+      at Object.<anonymous> (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\src\app\database.ts:1:1)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)
+      at Module._compile (C:\Users\suporte2\Documents\Programacao\Nodejs\serverwpp\node_modules\source-map-support\source-map-support.js:568:25)
+      at Module.m._compile (C:\Users\suporte2\AppData\Local\Temp\ts-node-dev-hook-6690354482041099.js:69:33) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts',
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts',
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts',
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\server.ts'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../database'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\server.ts\n' +
+    "Error: Cannot find module '../database'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\server.ts\n' +
+    '    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1075:27)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:141:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts:1:1)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-6690354482041099.js:69:33)',
+  stack: "Error: Cannot find module '../database'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\boot.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\index.ts\n' +
+    '- C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\server.ts\n' +
+    '    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1075:27)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:315:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1340:12)\n' +
+    '    at require (node:internal/modules/helpers:141:16)\n' +
+    '    at Object.<anonymous> (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts:1:1)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-6690354482041099.js:69:33)',
+  exception: true,
+  date: 'Thu Dec 05 2024 10:55:23 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 7692,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp',
+    execPath: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+    version: 'v22.11.0',
+    argv: [
+      'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\Port\\app\\node.exe',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 110559232,
+      heapTotal: 72044544,
+      heapUsed: 44017400,
+      external: 2386388,
+      arrayBuffers: 134768
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 704101.515 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._resolveFilename',
+      line: 1249,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1075,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 315,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 218,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1340,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 141,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\src\\app\\database.ts',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1546,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\Users\\suporte2\\Documents\\Programacao\\Nodejs\\serverwpp\\node_modules\\source-map-support\\source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: 'C:\\Users\\suporte2\\AppData\\Local\\Temp\\ts-node-dev-hook-6690354482041099.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-05T13:55:23.291Z'
+}
