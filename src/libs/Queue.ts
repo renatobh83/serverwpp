@@ -1,7 +1,7 @@
 import { type Job, Queue, Worker } from "bullmq";
 import * as jobs from "../jobs/index";
 import { logger } from "../utils/logger";
-import {IORedis} from "ioredis"
+import { Redis } from "ioredis"
 // Redis connection options
 const redisConfig = new IORedis( {
 	host: process.env.IO_REDIS_SERVER,
