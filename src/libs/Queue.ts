@@ -1,15 +1,15 @@
 import { type Job, Queue, Worker } from "bullmq";
 import * as jobs from "../jobs/index";
 import { logger } from "../utils/logger";
-
+import {IORedis} from "ioredis"
 // Redis connection options
-const redisConfig = {
+const redisConfig = new IORedis( {
 	host: process.env.IO_REDIS_SERVER,
 	port: +(process.env.IO_REDIS_PORT || "6379"),
 	password: process.env.IO_REDIS_PASSWORD || undefined,
 	db: 3,
 	maxRetriesPerRequest: null,
-};
+});
 
 // Cria as filas
 export const queues = Object.values(jobs).map((job: any) => {
