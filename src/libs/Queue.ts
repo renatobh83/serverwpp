@@ -18,7 +18,7 @@ redis.on("connect", ()=>{
 logger.info("Redis onConnect")})
 
 redis.on("close", (channel: string, message: string) => {
-	console.log(channel, message)
+	
 })
 redis.on("error", (err) => {
 logger.error(err) })
@@ -56,7 +56,7 @@ export async function addJob(
 	if (!queue) {
 		throw new Error(`Queue "${queueName}" not found.`);
 	}
-	console.log(queue.bull)
+
 	try {
 		await queue.bull.add(queueName, data, {
 			...queue.options, // Opções padrão da fila
@@ -74,7 +74,7 @@ export async function addJob(
 }
 const workers: Worker[] = [];
 // Função para configurar o processamento
-export function processQueues(concurrency = 2) {
+export function processQueues(concurrency = 6) {
 
 	queues.forEach(async({ name, handle }) => {
 		logger.info(`Registrando worker para a fila ${name}`);
@@ -96,7 +96,7 @@ export function processQueues(concurrency = 2) {
 		);
 
 		worker.on("active",(job, prev)=> {
-			console.log(job, prev)
+			logger.info(`Job ${job.id} na fila ${name} active.`);
 		})
 		worker.on("stalled", (job) => {
 			logger.warn(`Job em espera detectado: ${job}`);
@@ -104,7 +104,7 @@ export function processQueues(concurrency = 2) {
 
 		worker.on("completed", (job) => {
 			logger.info(`Job ${job.id} na fila ${name} concluído com sucesso.`);
-			console.log(`Job ${job.id} na fila ${name} concluído com sucesso.`);
+			
 		});
 
 		worker.on("failed", (job, error) => {

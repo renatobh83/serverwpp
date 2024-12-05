@@ -11,7 +11,7 @@ import { logger } from "../utils/logger";
 export default async function bullMQ(app: Application) {
 	logger.info("bullMQ started");
 
-	await addJob("SendMessageSchenduled", { text: 'Hello, World!' });
+	await addJob("SendMessageSchenduled", {});
 	await addJob("VerifyTicketsChatBotInactives", {});
 
 	processQueues();
