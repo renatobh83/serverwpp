@@ -3,7 +3,7 @@ import * as jobs from "../jobs/index";
 import { logger } from "../utils/logger";
 import { Redis } from "ioredis"
 // Redis connection options
-const redisConfig = new IORedis( {
+const redisConfig = new Redis( {
 	host: process.env.IO_REDIS_SERVER,
 	port: +(process.env.IO_REDIS_PORT || "6379"),
 	password: process.env.IO_REDIS_PASSWORD || undefined,
