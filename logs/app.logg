@@ -1,0 +1,742 @@
+{
+  error: Error: Queue "VerifyTicketsChatBotInactives" not found.
+      at addJob (/Users/renatomendonca/Desktop/Node/serverwpp/src/libs/Queue.ts:44:9)
+      at bullMQ (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:22:8)
+      at bootstrap (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts:11:14)
+      at application (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts:13:17)
+      at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:4:7)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)
+      at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)
+      at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js:69:33)
+      at node:internal/modules/cjs/loader:1698:10
+      at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js:114:20),
+  level: 'error',
+  message: 'uncaughtException: Queue "VerifyTicketsChatBotInactives" not found.\n' +
+    'Error: Queue "VerifyTicketsChatBotInactives" not found.\n' +
+    '    at addJob (/Users/renatomendonca/Desktop/Node/serverwpp/src/libs/Queue.ts:44:9)\n' +
+    '    at bullMQ (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:22:8)\n' +
+    '    at bootstrap (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts:11:14)\n' +
+    '    at application (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts:13:17)\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:4:7)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1698:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js:114:20)',
+  stack: 'Error: Queue "VerifyTicketsChatBotInactives" not found.\n' +
+    '    at addJob (/Users/renatomendonca/Desktop/Node/serverwpp/src/libs/Queue.ts:44:9)\n' +
+    '    at bullMQ (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:22:8)\n' +
+    '    at bootstrap (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts:11:14)\n' +
+    '    at application (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts:13:17)\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:4:7)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1698:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js:114:20)',
+  exception: true,
+  date: 'Wed Dec 04 2024 20:34:33 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 4889,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/renatomendonca/Desktop/Node/serverwpp',
+    execPath: '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+    version: 'v23.3.0',
+    argv: [
+      '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 82870272,
+      heapTotal: 35307520,
+      heapUsed: 14113552,
+      external: 2397240,
+      arrayBuffers: 65335
+    }
+  },
+  os: {
+    loadavg: [ 1.49658203125, 1.56591796875, 2.07421875 ],
+    uptime: 88978
+  },
+  trace: [
+    {
+      column: 9,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/libs/Queue.ts',
+      function: 'addJob',
+      line: 44,
+      method: null,
+      native: false
+    },
+    {
+      column: 8,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts',
+      function: 'bullMQ',
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts',
+      function: 'bootstrap',
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts',
+      function: 'application',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1546,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1698,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-6972605372296943.js',
+      function: 'require.extensions..jsx.require.extensions..js',
+      line: 114,
+      method: '.js',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-04T23:34:33.474Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:35:37.285Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:35:38.293Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:35:39.300Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:35:40.308Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:35:41.313Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:36:36.064Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:36:37.074Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:37:30.387Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:37:31.397Z'
+}
+{
+  error: Error: Cannot find module '../app/config-env'
+  Require stack:
+  - /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts
+      at Function._resolveFilename (node:internal/modules/cjs/loader:1239:15)
+      at Function._load (node:internal/modules/cjs/loader:1064:27)
+      at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+      at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)
+      at Module.require (node:internal/modules/cjs/loader:1325:12)
+      at require (node:internal/modules/helpers:136:16)
+      at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:3:1)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)
+      at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)
+      at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-05741314521180074.js:69:33) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [ '/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts' ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../app/config-env'\n" +
+    'Require stack:\n' +
+    '- /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts\n' +
+    "Error: Cannot find module '../app/config-env'\n" +
+    'Require stack:\n' +
+    '- /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts\n' +
+    '    at Function._resolveFilename (node:internal/modules/cjs/loader:1239:15)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1064:27)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1325:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:3:1)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-05741314521180074.js:69:33)',
+  stack: "Error: Cannot find module '../app/config-env'\n" +
+    'Require stack:\n' +
+    '- /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts\n' +
+    '    at Function._resolveFilename (node:internal/modules/cjs/loader:1239:15)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1064:27)\n' +
+    '    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n' +
+    '    at wrapModuleLoad (node:internal/modules/cjs/loader:218:24)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1325:12)\n' +
+    '    at require (node:internal/modules/helpers:136:16)\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:3:1)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-05741314521180074.js:69:33)',
+  exception: true,
+  date: 'Wed Dec 04 2024 20:37:49 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 5011,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/renatomendonca/Desktop/Node/serverwpp',
+    execPath: '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+    version: 'v23.3.0',
+    argv: [
+      '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 82100224,
+      heapTotal: 33505280,
+      heapUsed: 18089096,
+      external: 2363328,
+      arrayBuffers: 49867
+    }
+  },
+  os: { loadavg: [ 1.359375, 1.466796875, 1.923828125 ], uptime: 89174 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._resolveFilename',
+      line: 1239,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1064,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:diagnostics_channel',
+      function: 'TracingChannel.traceSync',
+      line: 322,
+      method: 'traceSync',
+      native: false
+    },
+    {
+      column: 24,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapModuleLoad',
+      line: 218,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1325,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'node:internal/modules/helpers',
+      function: 'require',
+      line: 136,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1546,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-05741314521180074.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-04T23:37:49.258Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:38:08.870Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:38:29.281Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:38:30.291Z'
+}
+{
+  message: 'Erro na conexão com o Redis: connect ECONNREFUSED 127.0.0.1:6379',
+  level: 'error',
+  timestamp: '2024-12-04T23:39:02.555Z'
+}
+{
+  error: Error: ⨯ Unable to compile TypeScript:
+  src/app/bull.ts(23,2): error TS1434: Unexpected keyword or identifier.
+  src/app/bull.ts(23,13): error TS1434: Unexpected keyword or identifier.
+  src/app/bull.ts(23,15): error TS1434: Unexpected keyword or identifier.
+  src/app/bull.ts(24,2): error TS1005: 'while' expected.
+  
+      at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:1:7)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)
+      at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)
+      at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:69:33)
+      at node:internal/modules/cjs/loader:1698:10
+      at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:114:20)
+      at require.extensions.<computed> (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:71:20)
+      at Object.nodeDevHook [as .ts] (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/ts-node-dev/lib/hook.js:63:13)
+      at Module.load (node:internal/modules/cjs/loader:1303:32)
+      at Function._load (node:internal/modules/cjs/loader:1117:12),
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    'src/app/bull.ts(23,2): error TS1434: Unexpected keyword or identifier.\n' +
+    'src/app/bull.ts(23,13): error TS1434: Unexpected keyword or identifier.\n' +
+    'src/app/bull.ts(23,15): error TS1434: Unexpected keyword or identifier.\n' +
+    "src/app/bull.ts(24,2): error TS1005: 'while' expected.\n" +
+    '\n' +
+    'Error: ⨯ Unable to compile TypeScript:\n' +
+    'src/app/bull.ts(23,2): error TS1434: Unexpected keyword or identifier.\n' +
+    'src/app/bull.ts(23,13): error TS1434: Unexpected keyword or identifier.\n' +
+    'src/app/bull.ts(23,15): error TS1434: Unexpected keyword or identifier.\n' +
+    "src/app/bull.ts(24,2): error TS1005: 'while' expected.\n" +
+    '\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:1:7)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1698:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:114:20)\n' +
+    '    at require.extensions.<computed> (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/ts-node-dev/lib/hook.js:63:13)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1303:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1117:12)',
+  stack: 'Error: ⨯ Unable to compile TypeScript:\n' +
+    'src/app/bull.ts(23,2): error TS1434: Unexpected keyword or identifier.\n' +
+    'src/app/bull.ts(23,13): error TS1434: Unexpected keyword or identifier.\n' +
+    'src/app/bull.ts(23,15): error TS1434: Unexpected keyword or identifier.\n' +
+    "src/app/bull.ts(24,2): error TS1005: 'while' expected.\n" +
+    '\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:1:7)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1698:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:114:20)\n' +
+    '    at require.extensions.<computed> (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:71:20)\n' +
+    '    at Object.nodeDevHook [as .ts] (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/ts-node-dev/lib/hook.js:63:13)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1303:32)\n' +
+    '    at Function._load (node:internal/modules/cjs/loader:1117:12)',
+  exception: true,
+  date: 'Wed Dec 04 2024 20:43:07 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 5140,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/renatomendonca/Desktop/Node/serverwpp',
+    execPath: '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+    version: 'v23.3.0',
+    argv: [
+      '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 64356352,
+      heapTotal: 18038784,
+      heapUsed: 12914976,
+      external: 2260280,
+      arrayBuffers: 16839
+    }
+  },
+  os: {
+    loadavg: [ 1.97314453125, 1.650390625, 1.8544921875 ],
+    uptime: 89492
+  },
+  trace: [
+    {
+      column: 7,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1546,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1698,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js',
+      function: 'require.extensions..jsx.require.extensions..js',
+      line: 114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 20,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js',
+      function: 'require.extensions.<computed>',
+      line: 71,
+      method: '<computed>',
+      native: false
+    },
+    {
+      column: 13,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/ts-node-dev/lib/hook.js',
+      function: 'Object.nodeDevHook [as .ts]',
+      line: 63,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1303,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Function._load',
+      line: 1117,
+      method: '_load',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-04T23:43:07.049Z'
+}
+{
+  error: ReferenceError: ExpressAdapter is not defined
+      at bullMQ (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:24:24)
+      at bootstrap (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts:11:14)
+      at application (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts:13:17)
+      at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:4:7)
+      at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)
+      at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)
+      at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:69:33)
+      at node:internal/modules/cjs/loader:1698:10
+      at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:114:20)
+      at require.extensions.<computed> (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:71:20),
+  level: 'error',
+  message: 'uncaughtException: ExpressAdapter is not defined\n' +
+    'ReferenceError: ExpressAdapter is not defined\n' +
+    '    at bullMQ (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:24:24)\n' +
+    '    at bootstrap (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts:11:14)\n' +
+    '    at application (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts:13:17)\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:4:7)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1698:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:114:20)\n' +
+    '    at require.extensions.<computed> (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:71:20)',
+  stack: 'ReferenceError: ExpressAdapter is not defined\n' +
+    '    at bullMQ (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts:24:24)\n' +
+    '    at bootstrap (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts:11:14)\n' +
+    '    at application (/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts:13:17)\n' +
+    '    at Object.<anonymous> (/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:4:7)\n' +
+    '    at Module.<anonymous> (node:internal/modules/cjs/loader:1546:14)\n' +
+    '    at Module._compile (/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js:568:25)\n' +
+    '    at Module.m._compile (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:69:33)\n' +
+    '    at node:internal/modules/cjs/loader:1698:10\n' +
+    '    at require.extensions..jsx.require.extensions..js (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:114:20)\n' +
+    '    at require.extensions.<computed> (/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js:71:20)',
+  exception: true,
+  date: 'Wed Dec 04 2024 20:43:08 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 5144,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/renatomendonca/Desktop/Node/serverwpp',
+    execPath: '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+    version: 'v23.3.0',
+    argv: [
+      '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 80609280,
+      heapTotal: 32980992,
+      heapUsed: 22204416,
+      external: 2363328,
+      arrayBuffers: 49867
+    }
+  },
+  os: {
+    loadavg: [ 1.97314453125, 1.650390625, 1.8544921875 ],
+    uptime: 89493
+  },
+  trace: [
+    {
+      column: 24,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/bull.ts',
+      function: 'bullMQ',
+      line: 24,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/boot.ts',
+      function: 'bootstrap',
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/app/index.ts',
+      function: 'application',
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 7,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts',
+      function: null,
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1546,
+      method: null,
+      native: false
+    },
+    {
+      column: 25,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/node_modules/source-map-support/source-map-support.js',
+      function: 'Module._compile',
+      line: 568,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 33,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js',
+      function: 'Module.m._compile',
+      line: 69,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: null,
+      line: 1698,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js',
+      function: 'require.extensions..jsx.require.extensions..js',
+      line: 114,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 20,
+      file: '/private/var/folders/fl/vyfbwjv544d6tk51w30mh1p40000gn/T/ts-node-dev-hook-8961940637376198.js',
+      function: 'require.extensions.<computed>',
+      line: 71,
+      method: '<computed>',
+      native: false
+    }
+  ],
+  timestamp: '2024-12-04T23:43:08.657Z'
+}
+{
+  error: TypeError: Cannot read properties of undefined (reading 'start')
+      at /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:5:6
+      at processTicksAndRejections (node:internal/process/task_queues:105:5),
+  level: 'error',
+  message: "uncaughtException: Cannot read properties of undefined (reading 'start')\n" +
+    "TypeError: Cannot read properties of undefined (reading 'start')\n" +
+    '    at /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:5:6\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  stack: "TypeError: Cannot read properties of undefined (reading 'start')\n" +
+    '    at /Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts:5:6\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  exception: true,
+  date: 'Wed Dec 04 2024 20:57:18 GMT-0300 (Horário Padrão de Brasília)',
+  process: {
+    pid: 5368,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/renatomendonca/Desktop/Node/serverwpp',
+    execPath: '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+    version: 'v23.3.0',
+    argv: [
+      '/Users/renatomendonca/.nvm/versions/node/v23.3.0/bin/node',
+      'src/server.ts'
+    ],
+    memoryUsage: {
+      rss: 82837504,
+      heapTotal: 35438592,
+      heapUsed: 15716120,
+      external: 2363288,
+      arrayBuffers: 49827
+    }
+  },
+  os: {
+    loadavg: [ 1.5576171875, 1.70556640625, 1.80517578125 ],
+    uptime: 90343
+  },
+  trace: [
+    {
+      column: 6,
+      file: '/Users/renatomendonca/Desktop/Node/serverwpp/src/server.ts',
+      function: null,
+      line: 5,
+      method: null,
+      native: false
+    },
+    {
+      column: 5,
+      file: 'node:internal/process/task_queues',
+      function: 'processTicksAndRejections',
+      line: 105,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2024-12-04T23:57:18.789Z'
+}
+{
+  code: 'ERR_SERVER_NOT_RUNNING',
+  level: 'error',
+  message: 'Erro ao encerrar o servidor HTTP: Server is not running.',
+  stack: 'Error: Server is not running.\n' +
+    '    at Server.close (node:net:2323:12)\n' +
+    '    at Object.onceWrapper (node:events:627:28)\n' +
+    '    at Server.emit (node:events:525:35)\n' +
+    '    at emitCloseNT (node:net:2383:8)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:89:21)',
+  timestamp: '2024-12-05T00:02:44.542Z'
+}

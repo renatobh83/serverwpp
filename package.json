@@ -1,0 +1,29 @@
+{
+  "name": "serverwpp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect=9229 --respawn --transpile-only --ignore node_modules src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@bull-board/api": "^6.5.3",
+    "@bull-board/express": "^6.5.3",
+    "bullmq": "^5.31.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "reflect-metadata": "^0.2.2",
+    "winston": "^3.17.0"
+  }
+}
