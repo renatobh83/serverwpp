@@ -8,13 +8,15 @@ import { logger } from "../utils/logger";
 
 
 
-export default async function bullMQ(app: Application) {
-	logger.info("bullMQ started");
+import Queue from "../libs/Queue2";
 
-	await addJob("SendMessageSchenduled", {});
-	await addJob("VerifyTicketsChatBotInactives", {});
+export default async function bullMQ(app) {
+  console.info("bullMQ started");
+  await Queue.process();
 
-	processQueues();
+  // await Queue.add("VerifyScheduleMessages", {});
+  await Queue.add("VerifyTicketsChatBotInactives", {});
+  await Queue.add("SendMessageSchenduled", {});
 
 	// Inicialize o painel do Bull
 	const serverAdapter = new ExpressAdapter();
