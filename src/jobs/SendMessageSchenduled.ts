@@ -6,7 +6,7 @@ export default {
 	options: {
 		removeOnComplete: false,
 		removeOnFail: false,
-		jobId: "SendMessageSchenduled",
+		jobId: `SendMessageSchenduled-${Date.now()}`,
 		repeat: {
 			every: 1 * 60 * 1000,
 		},
